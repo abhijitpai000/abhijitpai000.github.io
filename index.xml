@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi, I&#39;m Abhijit Pai.</title>
+    <link>https://abhijitpai000.github.io/</link>
+    <description>Recent content on Hi, I&#39;m Abhijit Pai.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abhijitpai000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moviebot Mike</title>
+      <link>https://abhijitpai000.github.io/posts/moviebot-mike/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/moviebot-mike/</guid>
+      <description>Features Mike predicts 9 user intents, makes recommendations for about 200 IMDb 7+ rated Bollywood movies from the 2010 - 2019 era based on plot similarity, gives movie plots, and drops movie dialogues in the conversation.
+Related Links  Web app link (Heroku) Web app repo (Github) Model Training repo (Github)  NOTE: The web app is deployed on a free server which goes into sleep mode and takes about 10s for boot up, once loaded the bot will work as expected.</description>
+    </item>
+    
+    <item>
+      <title>Product RecSys</title>
+      <link>https://abhijitpai000.github.io/posts/product-recsys/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/product-recsys/</guid>
+      <description>About Using the customer orders and rating data from Olist E-Commerce Public Dataset, which has information about 100k orders made at multiple marketplaces in Brazil from 2016 to 2018, I trained 3 models that generate product recommendations.
+NOTE - The granularity of orders in the dataset is at the product category level, thus recommendations are product categories in the true sense.
+Related Links  Web app link (Heroku). Web app (Github) Model Training (Github)  NOTE: The web app is deployed on a free server which goes into sleep mode and takes about 10s for boot up, once loaded the bot will work as expected.</description>
+    </item>
+    
+    <item>
+      <title>Text Grader</title>
+      <link>https://abhijitpai000.github.io/posts/text-grader/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/text-grader/</guid>
+      <description>About Text Grader determines the readability of a given text using Flesch-Kincaid readability tests and provides stats about the text.
+Related Links  Web app link (Heroku). Code (Github)  NOTE: The web app is deployed on a free server which goes into sleep mode and takes about 10s for boot up, once loaded the bot will work as expected.
+How it Works When user inputs a text, backend performs to following.</description>
+    </item>
+    
+    <item>
+      <title>Customer Lifetime Value</title>
+      <link>https://abhijitpai000.github.io/posts/customer-lifetime-value/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/customer-lifetime-value/</guid>
+      <description>Overview Trained a Beta Geometric-Negative Binomial Distribution (BG/NBD) model that explains how frequently customers make purchases while they are still &amp;ldquo;alive&amp;rdquo; and how likely a customer is to churn in any given time period, using customer transactions of E-Commerce store Olist public dataset
+Model Outcome
+Trained Model Predicts Number of Purchases with an RMSE of 0.144 and is able to predict 99% of purchases in the test set.
+Model vs Actual - Cumulative Transactions and Daily Transactions About Olist Dataset The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil, the orders are divided into 9 .</description>
+    </item>
+    
+    <item>
+      <title>Predictive Lead Scoring</title>
+      <link>https://abhijitpai000.github.io/posts/predictive-lead-scoring/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/predictive-lead-scoring/</guid>
+      <description>Overview Predictive Lead Scoring is a method used to analyze lead behavior in historical customer data to find patterns resulting in a positive business outcome, such as a closed deal with a client. In this study, I developed a lead scoring model using the Bank Marketing dataset, which contains the outcome of clients subscribing to a term deposit or not based on a direct marketing campaign performed by a Portuguese bank.</description>
+    </item>
+    
+    <item>
+      <title>Customer Segmentation - RFM</title>
+      <link>https://abhijitpai000.github.io/posts/customer-segmentation/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/customer-segmentation/</guid>
+      <description>Overview Recency-Frequency-Monetary Value (RFM) is a quantitative technique used to analyze &amp;amp; group customers based on their purchase history by assigning numerical values (1 to K) for customer groups. In this study, I computed RFM for each customer based on their purchases (using definitions below), then applied the K-Means clustering algorithm, which aims to partition N-observations into K-clusters by assigning each observation a random cluster number (0 to K), based on nearest &amp;lsquo;Means&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Retail Summer Sales</title>
+      <link>https://abhijitpai000.github.io/posts/retail-summer-sales/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/posts/retail-summer-sales/</guid>
+      <description>Understanding how well a product that is published on the E-Commerce platform Wish is going to sell using Machine Learning.
+Overview In this study, I extracted 10 significant features out of 43 provided in the dataset and trained a Linear Regression model that predicts &amp;ldquo;units_sold&amp;rdquo; of products.
+Evaluation Metrics used: Mean absolute error and R-Squared
+Findings It is observed that out of the 10 features, products marked rating 3 and 5 have a significant positive impact on sales, followed by merchants who used ad boosts, their total rating count, discount percent on the product, with a retail price of the product having a significant negative impact.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://abhijitpai000.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/contact/</guid>
+      <description>Contact Me input, textarea {display:block;padding:10px;border:solid 2px;box-shadow:0 0 15px 4px rgba(0,0,0,0.06);border-radius:10px;width: 40%;outline: none;}input:focus {box-shadow: 0 0 5px rgba(81, 203, 238, 1);border: 1px solid rgba(81, 203, 238, 1);}textarea:focus {box-shadow: 0 0 5px rgba(81, 203, 238, 1);border: 1px solid rgba(81, 203, 238, 1);}button {border-radius: 10px; border: solid 2px; padding: 5px; color: black; cursor: pointer;font-weight: bold;outline: none;margin-top:10px;}button:hover {background:#659dbd;color: white;}I&amp;rsquo;m currently looking for opportunities in the ML space, if you want to collaborate on a project feel free to contact me!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://abhijitpai000.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijitpai000.github.io/about/</guid>
+      <description>I like Applied Machine Learning, enjoy the process of building ML-powered web apps.
+Professionally, I have about 3 years of experience at Amazon, in the department of Alexa Data Services, part of the ML Ops team working on Alexa&amp;rsquo;s development.
+I&amp;rsquo;m currently looking for opportunities in the ML space!
+Skills Primary    Domain  Frameworks/Libraries/Packages      Machine Learning Python, scikit-learn, scikit-surprise, Pandas, Numpy, Matplotlib &amp;amp; Seaborn.</description>
+    </item>
+    
+  </channel>
+</rss>
